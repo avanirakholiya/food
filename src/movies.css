@@ -1,0 +1,32 @@
+.App {
+    text-align: center;
+  }
+  .main{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 14px;
+  }
+  .movie{
+    background-color: black;
+    color:aliceblue;
+    border: 1px solid red;
+    padding: 20px;
+    font-weight: bold;
+    text-align: start;
+    margin: 20px;
+    height: 550px;
+    width:350px;
+  }
+
+
+  .img:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+  }
+  .img{
+    padding-left: 4px;
+    padding-right: 6px;
+    padding-top: 8px;
+  }
